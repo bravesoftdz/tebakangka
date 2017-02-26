@@ -10,6 +10,7 @@ object Form1: TForm1
   Font.Height = -13
   Font.Name = 'Trebuchet MS'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
   Position = poScreenCenter
   OnCreate = FormCreate
@@ -24,29 +25,39 @@ object Form1: TForm1
     BevelOuter = bvNone
     Color = clWhite
     TabOrder = 0
-    object txtToguess: TMaskEdit
-      Left = 16
+    object scrlLeft: TScrollBox
+      Left = 0
       Top = 0
-      Width = 89
-      Height = 41
-      BevelEdges = []
-      BevelInner = bvNone
-      BevelOuter = bvNone
-      Ctl3D = False
-      EditMask = '!9 9 9 9;1;_'
-      Font.Charset = ANSI_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -27
-      Font.Name = 'Trebuchet MS'
-      Font.Style = []
-      MaxLength = 7
-      ParentCtl3D = False
-      ParentFont = False
-      ReadOnly = True
+      Width = 217
+      Height = 321
+      HorzScrollBar.Visible = False
+      VertScrollBar.Tracking = True
+      Align = alClient
       TabOrder = 0
-      Text = '       '
-      OnKeyDown = txtToguessKeyDown
-      OnKeyPress = txtToguessKeyPress
+      object txtToguess: TMaskEdit
+        Left = 16
+        Top = 4
+        Width = 89
+        Height = 41
+        BevelEdges = []
+        BevelInner = bvNone
+        BevelOuter = bvNone
+        Ctl3D = False
+        EditMask = '!9 9 9 9;1;_'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = 'Trebuchet MS'
+        Font.Style = []
+        MaxLength = 7
+        ParentCtl3D = False
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 0
+        Text = '       '
+        OnKeyDown = txtToguessKeyDown
+        OnKeyPress = txtToguessKeyPress
+      end
     end
   end
   object StatusBar1: TStatusBar
@@ -193,6 +204,19 @@ object Form1: TForm1
       ParentShowHint = False
       ShowHint = True
       OnClick = btnNewClick
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 344
+    Top = 136
+    object File1: TMenuItem
+      Caption = '&File'
+      Visible = False
+      object New1: TMenuItem
+        Caption = '&New'
+        ShortCut = 113
+        OnClick = btnNewClick
+      end
     end
   end
 end

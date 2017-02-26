@@ -12,8 +12,7 @@ File_9=SourceModule,'C:\Documents and Settings\MT Wilson\My Documents\Projects\e
 
 [Modules]
 Module0=C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\Unit1.pas
-Module1=C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\TebakAngka.dpr
-Count=2
+Count=1
 EditWindowCount=1
 
 [C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\Unit1.pas]
@@ -21,20 +20,18 @@ ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\TebakAngka.dpr]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
 [C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
+[C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\TebakAngka.dpr]
+FormState=0
+FormOnTop=0
+
 [EditWindow0]
-ViewCount=2
+ViewCount=1
 CurrentView=0
 View0=0
-View1=1
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
@@ -56,20 +53,13 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965770005000000000000025500000000000000010000000000000000000000000100000000000500000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
 Module=C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\Unit1.pas
-CursorX=5
-CursorY=130
-TopLine=101
-LeftCol=1
-
-[View1]
-Module=C:\Documents and Settings\MT Wilson\My Documents\Projects\TebakAngka\TebakAngka.dpr
-CursorX=1
-CursorY=14
-TopLine=1
+CursorX=58
+CursorY=78
+TopLine=60
 LeftCol=1
 
 [Watches]
@@ -177,7 +167,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=91
 ArrangeBy=Name
-SelectedItem=Visible
+SelectedItem=Caption
 ExpandedItems=Font,HTTPOptions,Request,SSLOptions
 HiddenCategories=
 
